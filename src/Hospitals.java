@@ -179,9 +179,7 @@ public class Hospitals extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(Hospitals.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
+        
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new Hospitals().setVisible(true);
@@ -189,7 +187,6 @@ public class Hospitals extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
@@ -202,5 +199,4 @@ public class Hospitals extends javax.swing.JFrame {
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
-    // End of variables declaration                   
 }
