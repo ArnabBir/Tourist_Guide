@@ -41,7 +41,7 @@ public class TouristsSpots extends javax.swing.JFrame {
 
         jLabel5.setText("Address");
 
-        jLabel1.setFont(new java.awt.Font("Calibri", 1, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Calibri", 1, 18));
         jLabel1.setText("Tourists Spots");
 
         jLabel6.setText("Feature");
@@ -187,9 +187,7 @@ public class TouristsSpots extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TouristsSpots.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
 
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new TouristsSpots().setVisible(true);
@@ -197,7 +195,6 @@ public class TouristsSpots extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify                     
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
