@@ -1,4 +1,3 @@
-
 public class Transport extends javax.swing.JFrame {
 
     public Transport() {
